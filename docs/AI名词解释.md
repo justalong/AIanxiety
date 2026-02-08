@@ -12,21 +12,6 @@
 - 只有理解概念，才能深入学习更复杂的算法和架构
 - 方便更快找到解决方案、评估工具，解决问题
 
-#### 明智决策
-
-- 识别潜在的商业机会，合理规划
-- 批判性地看待AI，选择适合自身需求工具
-
-#### 批判性思维和风险意识
-
-- 识别虚假AI信息，批判性看待AI产品
-
-#### 把握机遇
-
-- 各行各业对AI人才的需求增长，正是发展好机会
-- 深入理解AI，激发创新思维，发现AI的新应用点
-
-
 ### 一、基础概念（Basic concepts）
 
 | 英文简称 | 英文全称 | 中文翻译 | 解释说明 |
@@ -61,34 +46,19 @@
 | T2A/M | Text-to-Audio/Music | 文本生成音频/音乐 | 根据文本描述生成语音、音效或音乐。 |
 | Multimodal AI | Multimodal AI | 多模态AI | 能处理和生成文本、图像、音频等多种数据。 |
 | Hallucination | Hallucination | 幻觉 | AIGC模型生成虚假或不准确但听似合理的内容。 |
-| NL2Code LLMs | Natural Language to Code Large Language Models | 自然语言到代码的大型语言模型 | 专门将自然语言转换为代码的LLM。 |
-| AutoDev | Automated Development | 自动化开发 | 使用AI技术自动化软件开发流程。 |
 | CodeRL | Code Reinforcement Learning | 代码强化学习 | 使用RL优化代码生成或修复。 |
 | NL-driven Prog | Natural Language-driven Programming | 自然语言驱动的编程 | 使用自然语言指令进行编程。 |
-| DevAI | Development AI | 开发人工智能 | 广义上指应用于软件开发各个环节的AI。 |
-| AI-Refactor | AI-powered Refactoring | AI驱动的代码重构 | 使用AI改进代码结构。 |
 | Robotics | Robotics | 机器人学 | 设计、建造和应用机器人的交叉学科领域。 |
 | Feature | Feature | 特征 | 数据中用于预测或分类的可衡量属性。 |
 | Model | Model | 模型 | 从数据中学习得到的，用于预测或决策的系统。 |
 | Algorithm | Algorithm | 算法 | 解决问题或完成学习任务的明确步骤或规则。 |
 | Training Data | Training Data | 训练数据 | 用于训练模型，让模型学习规律的数据集。 |
-| Test Data | Test Data | 测试数据 | 用于评估已训练模型性能的未见过的数据集。 |
-| Overfitting | Overfitting | 过拟合 | 模型对训练数据过度拟合，在新数据上表现差。 |
-| Underfitting | Underfitting | 欠拟合 | 模型过于简单，未能捕捉数据基本模式。 |
-| Bias | Bias | 偏差 | 模型预测与真实值间的系统性差异；或指不公平倾向。 |
-| Variance | Variance | 方差 | 模型对训练数据变化的敏感度，高方差易过拟合。 |
-| Classification | Classification | 分类 | 将数据分配到预定义类别的监督学习任务。 |
-| Regression | Regression | 回归 | 预测连续数值输出的监督学习任务。 |
 | Clustering | Clustering | 聚类 | 将数据根据相似性分组的无监督学习任务。 |
-| Backpropagation | Backpropagation | 反向传播 | 通过计算梯度来更新神经网络权重的核心算法。 |
 | Transformer | Transformer | Transformer 模型 | 基于自注意力机制，广泛用于 NLP 等领域。 |
-| Symbolic AI | Symbolic Artificial Intelligence | 符号主义AI | 基于规则和符号推理的AI方法 |
-| Connectionism | - | 连接主义 | 通过神经网络模拟智能的理论 |
 | Turing Test | - | 图灵测试 | 判断机器是否具备人类智能的标准 |
 | Agent2Agent (A2A) | Agent-to-Agent Communication | 智能体间通信 | 多个AI智能体之间协作和交流信息的技术。 |
 | Autonomous Agents | Autonomous Agents | 自主智能体 | 能够在没有直接人为干预下独立行动的AI系统。 |
 | Cognitive Architectures | Cognitive Architectures | 认知架构 | 模拟人类认知功能的AI系统设计框架。 |
-| World Models | World Models | 世界模型 | AI智能体学习和构建环境抽象表示的能力。 |
 | Foundation Models | Foundation Models | 基础模型 | 在大规模数据上预训练，可用于多种下游任务的模型。 |
 | Generative Agents | Generative Agents | 生成式智能体 | 能够模拟人类行为和交互的AI智能体。 |
 | Synthetic Data Generation | Synthetic Data Generation | 合成数据生成 | 使用AI创建用于训练模型的仿真数据。 |
@@ -420,23 +390,6 @@
 | Overfitting | Overfitting | 过拟合 | 模型在训练集上表现好但在测试集上差。 |
 | Regularization | Regularization | 正则化 | 减缓过拟合的技术，如L1和L2正则化。 |
 | Dropout | Dropout | 随机失活 | 一种正则化技术，随机禁用神经元。 |
-
-### 可解释性人工智能 (Explainable AI)
-
-| 英文简称 | 英文全称 | 中文含义 | 中文解释 |
-|---|---|---|---|
-| XAI | Explainable AI | 可解释性人工智能 | 使AI模型的决策过程对人类可理解。 |
-| SHAP | SHapley Additive exPlanations | SHAP值 | 基于博弈论的特征重要性解释方法。 |
-| LIME | Local Interpretable Model-agnostic Explanations | LIME | 局部近似解释模型行为的方法。 |
-| Saliency Map | Saliency Map | 显著性图 | 突出显示输入中对预测最重要的区域。 |
-| Rule Extraction | Rule Extraction | 规则提取 | 从复杂模型中提取可理解的规则。 |
-| Decision Tree Surrogate | Decision Tree Surrogate | 决策树代理模型 | 用可解释的决策树近似复杂模型。 |
-| Attention Visualization | Attention Visualization | 注意力可视化 | 可视化模型在处理输入时关注的部分。 |
-| Counterfactual Explanation | Counterfactual Explanation | 反事实解释 | 解释如果输入发生变化预测会如何变化。 |
-| Causal Inference | Causal Inference | 因果推断 | 识别输入和输出之间的因果关系。 |
-| Explainable Boosting Machine | Explainable Boosting Machine (EBM) | 可解释的梯度提升机 | 一种具有良好可解释性的集成模型。 |
-| Concept-Based Explanation | Concept-Based Explanation | 基于概念的解释 | 使用人类可理解的概念来解释模型决策。 |
-| Trustworthiness | Trustworthiness | 可信赖性 | 用户对AI系统的信任程度。 |
 
 ### 通用人工智能 (Artificial General Intelligence)
 
